@@ -3,7 +3,7 @@ import '../styles/app.css';
 import actions from './actions';
 import state from './state';
 //import view from './components/Description';
-import Description from './components/Description';
+import Descripion from './components/Description';
 import Skills from './components/Skills';
 import Experience from './components/Experience';
 import AboutMe from './components/AboutMe';

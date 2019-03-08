@@ -5,7 +5,7 @@ export default () => (
   <section>
     <h1>Gary Gary</h1>
     <p>
-      <em>Who the heck is this guy done?</em>
+      <em>Who the heck is this guy?</em>
     </p>
     <hr />
     <p>
