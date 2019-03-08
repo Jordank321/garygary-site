@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "start": "parcel ./src/index.html",
-    "build": "parcel build ./src/index.html --public-url ./"
+    "build": "parcel build ./src/index.html --public-url ./",
+    "copy": "cpx \"dist/*.{html,js,css,map}\" docs"
   },
   "author": "Gary Gary",
   "license": "MIT",
@@ -31,6 +32,7 @@
     "@babel/plugin-transform-react-jsx": "^7.3.0",
     "@babel/preset-env": "^7.3.1",
     "babel-eslint": "^10.0.1",
+    "cpx": "^1.5.0",
     "eslint": "^5.14.1",
     "eslint-config-airbnb-base": "^12.0.0",
     "eslint-plugin-import": "^2.2.0",
