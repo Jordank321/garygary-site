@@ -1,0 +1,82 @@
+* {
+  color: #303036;
+  font-family: 'Acme', cursive;
+  margin: 5px;
+}
+
+.inline {
+  list-style: none;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  white-space: nowrap;
+  overflow-x: auto;
+  overflow-y: hidden;
+}
+
+.inline>* {
+  display: inline-block;
+  height: 100%;
+}
+
+.wrap{
+  word-wrap: break-word;
+}
+
+section {
+  background-color: #fffaff;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.background {
+  background-color: #c200fb;
+}
+
+ul {
+  list-style: none;
+  /* Remove default bullets */
+}
+
+ul li::before {
+  content: "\1F449";
+  /* Add content: \2022 is the CSS Code/unicode for a bullet */
+  /* color: red; /* Change the color */
+  font-weight: bold;
+  /* If you want it to be bold */
+  display: inline-block;
+  /* Needed to add space between the bullet and the text */
+  width: 2em;
+  /* Also needed for space (tweak if needed) */
+  margin-left: -1em;
+  /* Also needed for space (tweak if needed) */
+}
+
+body {
+  color: #303036 !important;
+  font-family: 'Acme', cursive !important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  font-size: calc(10px + 2vmin);
+}
+
+h1 {
+  font-size: calc(20px + 6vmin)
+}
+
+h2 {
+  font-size: calc(10px + 6vmin)
+}
+
+h1, h2, h3 {
+  margin-top: 0;
+  /* margin-bottom: 1rem; */
+  text-align: center;
+}
+
+p {
+  text-align: center;
+  margin-top: 0;
+}
