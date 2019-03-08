@@ -14,8 +14,10 @@ const content = (<div>
     </ul>
     <body>Extra skills = Extra points</body>
     <ul>
-        <li>Specflow</li>
+        <li>Specflow TDD</li>
+        <li>Serverless cloud tech (Azure functions)</li>
         <li>T-SQL (Microsoft SQL Server)</li>
+        <li>Docker</li>
         <li>Scripting (Powershell, bash, batch)</li>
     </ul>
 </div>);
