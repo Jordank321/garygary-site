@@ -1,7 +1,7 @@
 import { h } from 'hyperapp';
 import { LinkedInLink, GithubLink } from './Links';
 
-export default () => (
+export default ({tooltiptext, copyAction, resetCopyAction}) => (
   <section>
     <h1>Gary Gary</h1>
     <p>
@@ -13,15 +13,18 @@ export default () => (
       <GithubLink/>
       <div class="inline">
         <body id={emailId}>jordankelwick@gmail.com</body>
-        <i onclick={copyEmailToClipboard} class="fas fa-copy col-xs-6"></i>
+        <i onclick={() => copyEmailToClipboard(copyAction)} onmouseout={resetCopyAction} on class="fas fa-copy custtooltip">
+          <span class="custtooltiptext" textContent={tooltiptext}/>
+        </i>
       </div>
     </p>
   </section>
 );
 
-function copyEmailToClipboard() {
+function copyEmailToClipboard(copy) {
   selectText(emailId);
   document.execCommand("copy");
+  copy()
 }
 
 // very good text selector from https://stackoverflow.com/questions/985272/selecting-text-in-an-element-akin-to-highlighting-with-your-mouse
@@ -41,12 +44,6 @@ function selectText(node) {
   } else {
     console.warn("Could not select text in node: Unsupported browser.");
   }
-}
-
-// reset tooltip
-function outFunc() {
-  var tooltip = document.getElementById("myTooltip");
-  tooltip.innerHTML = "Copy to clipboard";
 }
 
 const emailId = "myEmail";

@@ -10,8 +10,6 @@
   margin: 0;
   padding: 0;
   white-space: nowrap;
-  overflow-x: auto;
-  overflow-y: hidden;
 }
 
 .inline>* {
@@ -79,4 +77,35 @@ h1, h2, h3 {
 p {
   text-align: center;
   margin-top: 0;
+}
+
+/* Tooltip container */
+.custtooltip {
+  position: relative;
+  display: inline-block;
+  border-bottom: 1px dotted black; /* If you want dots under the hoverable text */
+}
+
+/* Tooltip text */
+.custtooltip .custtooltiptext {
+  visibility: hidden; /* TODO: chgane this to hidden when done */
+  width: 120px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  font-size: 70%;
+  padding: 5px 0;
+  border-radius: 6px;
+ 
+  /* Position the tooltip text - see examples below! */
+  position: absolute;
+  z-index: 1;
+  bottom: 100%;
+  left: 50%;
+  margin-left: -60px;
+}
+
+/* Show the tooltip text when you mouse over the tooltip container */
+.custtooltip:hover .custtooltiptext {
+  visibility: visible;
 }

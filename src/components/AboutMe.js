@@ -9,7 +9,10 @@ const content = (<div>
     <body>Why I exist:</body>
     <ul class="wrap">
         <li>Problem solving!</li>
-        <li>Problem solving... yet again!</li>
+        <li>Creating "things"</li>
+        <li>Video games (VR recently)</li>
+        <li>Food (eating AND cooking)</li>
+        <li>Puzzles, mostly around maths</li>
     </ul>
     
 </div>);

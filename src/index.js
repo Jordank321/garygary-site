@@ -8,9 +8,9 @@ import Experience from './components/Experience';
 import AboutMe from './components/AboutMe';
 import MyProjects from './components/MyProjects';
 
-const view = () => (
+const view = ({tooltiptext}, {copy, copyReset}) => (
   <div class="container">
-    <Description/>
+    <Description tooltiptext={tooltiptext} copyAction={copy} resetCopyAction={copyReset}/>
     <Skills/>
     <Experience/>
     <AboutMe/>
@@ -27,11 +27,13 @@ let main;
 
 if (process.env.NODE_ENV !== 'production') {
   import('hyperapp-redux-devtools').then((devtools) => {
+    console.log(appArgs);
     main = devtools(app)(...appArgs);
 
     onMount(main);
   });
 } else {
+  
   main = app(...appArgs);
 
   onMount(main);
