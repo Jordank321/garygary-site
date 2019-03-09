@@ -3,7 +3,7 @@ import Section from './Section';
 import { PiHouseProjectLink, StupifyProjectLink, GaryLangProjectLink, ThisWebsiteProject } from './Links';
 
 const heading = "Projects!";
-const subtext = "Atleast, the interesting and functining ones";
+const subtext = "At least, the interesting and functining ones";
 const content = (<div>
     <ul>
         <li><PiHouseProjectLink/> - Voice activated Raspberry pi home automation system</li>
