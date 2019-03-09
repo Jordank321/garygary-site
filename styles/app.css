@@ -53,6 +53,7 @@ ul li::before {
 body {
   color: #303036 !important;
   font-family: 'Acme', cursive !important;
+  background-color: #fffaff;
   display: flex;
   justify-content: center;
   align-items: center;

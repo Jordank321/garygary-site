@@ -28,6 +28,10 @@ export function GithubLink(){
     return NewTabLink("https://github.com/Jordank321", null, "fab fa-github-square fa-2x");
 }
 
+export function GasShipperLink(){
+    return NewTabLink("https://www.gilmond.com/products/risk-manager/gas-shipper", "Gas Shipper")
+}
+
 export function NewTabLink(linkhref, linktext, htmlclass) {
     return (<a href={linkhref} target="_blank" class={htmlclass} text={linktext}/>);
 }

@@ -2,7 +2,7 @@ import { h } from 'hyperapp';
 import Section from './Section';
 import { PiHouseProjectLink, StupifyProjectLink, GaryLangProjectLink, ThisWebsiteProject } from './Links';
 
-const heading = "Projects!";
+const heading = "Solo Projects";
 const subtext = "At least, the interesting and functining ones";
 const content = (<div>
     <ul>

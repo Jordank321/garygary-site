@@ -7,6 +7,7 @@ import Skills from './components/Skills';
 import Experience from './components/Experience';
 import AboutMe from './components/AboutMe';
 import MyProjects from './components/MyProjects';
+import TeamProjects from './components/TeamProjects';
 
 const view = ({tooltiptext}, {copy, copyReset}) => (
   <div class="container">
@@ -15,6 +16,7 @@ const view = ({tooltiptext}, {copy, copyReset}) => (
     <Experience/>
     <AboutMe/>
     <MyProjects/>
+    <TeamProjects/>
   </div>
 )
 
