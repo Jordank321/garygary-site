@@ -6,7 +6,7 @@
   "scripts": {
     "start": "parcel ./src/index.html",
     "build": "rm -r ./dist && parcel build ./src/index.html --public-url ./",
-    "copy": "rm -r ./docs && cpx \"dist/*.{html,js,css,map}\" docs"
+    "copy": "rm -r ./docs && cpx \"dist/*.{html,js,css,map}\" docs && cpx \"CNAME\" docs"
   },
   "author": "Gary Gary",
   "license": "MIT",
@@ -42,6 +42,7 @@
     "imports": "^1.0.0",
     "jest": "^24.1.0",
     "node-libs-browser": "^2.0.0",
-    "parcel": "^1.11.0"
+    "parcel": "^1.11.0",
+    "selenium-webdriver": "^4.0.0-alpha.1"
   }
 }
