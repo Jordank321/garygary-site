@@ -12,7 +12,7 @@ export default ({tooltiptext, copyAction, resetCopyAction}) => (
       <LinkedInLink/>
       <GithubLink/>
       <div class="inline">
-        <body id={emailId}>jordankelwick@gmail.com</body>
+        <body id={emailId}>gary@garygary.uk</body>
         <i onclick={() => copyEmailToClipboard(copyAction)} onmouseout={resetCopyAction} on class="fas fa-copy custtooltip">
           <span class="custtooltiptext" textContent={tooltiptext}/>
         </i>
