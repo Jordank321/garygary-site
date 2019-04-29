@@ -13,7 +13,7 @@ const content = (
       </li>
       <li>
         At {GilmondLink} (again!) as a Software Engineer to present day{' '}
-        <em>(04/2018 - now!)</em>
+        <em>(04/2019 - now!)</em>
       </li>
     </ul>
   </div>
