@@ -8,6 +8,10 @@ export function GilmondLink() {
   return NewTabLink('https://www.gilmond.com', 'Gilmond');
 }
 
+export function FourComLink() {
+  return NewTabLink('https://www.4com.co.uk', '4Com');
+}
+
 export function PiHouseProjectLink() {
   return NewTabLink('https://github.com/Jordank321/pihouse', 'PiHouse');
 }
