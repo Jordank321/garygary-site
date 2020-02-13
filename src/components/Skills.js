@@ -6,19 +6,19 @@ const subtext = "I have skills?";
 const content = (<div>
     <body>Languages I like to code in:</body>
     <ul>
-        <li>C#</li>
+        <li>C# (.Net Core)</li>
+        <li>JavaScript/TypeScript</li>
         <li>Golang</li>
-        <li>JavaScript (TypeScript)</li>
         <li>Python</li>
         <li>BrainF**k</li>
     </ul>
     <body>Extra skills = Extra points</body>
     <ul>
-        <li>Specflow TDD</li>
         <li>Serverless cloud tech (Azure functions)</li>
         <li>T-SQL (Microsoft SQL Server)</li>
         <li>Docker</li>
         <li>Scripting (Powershell, bash, batch)</li>
+        <li>Specflow TDD</li>
     </ul>
 </div>);
 

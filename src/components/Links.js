@@ -4,6 +4,10 @@ export function NewTabLink(linkhref, linktext, htmlclass) {
   return (<a href={linkhref} target="_blank" class={htmlclass} text={linktext}/>);
 }
 
+export function TwitterLink(){
+  return NewTabLink('https://twitter.com/LeGaryGary', null, 'fab fa-twitter-square fa-2x');
+}
+
 export function GilmondLink() {
   return NewTabLink('https://www.gilmond.com', 'Gilmond');
 }

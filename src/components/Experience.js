@@ -9,15 +9,15 @@ const content = (
     <body>I have worked...</body>
     <ul class="wrap">
       <li>
-        At {GilmondLink} as a QA Test Professional <em>(10/2017 - 03/2019)</em>
+        At {FourComLink} as a Developer to present day
+        <em>(10/2019 - now!)</em>
       </li>
       <li>
-        At {GilmondLink} (again!) as a Software Engineer
+        At {GilmondLink} as a Software Engineer
         <em>(04/2019 - 10/2019)</em>
       </li>
       <li>
-        At {FourComLink} as a Developer to present day
-        <em>(10/2019 - now!)</em>
+        At {GilmondLink} as a QA Test Professional <em>(10/2017 - 03/2019)</em>
       </li>
     </ul>
   </div>

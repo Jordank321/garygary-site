@@ -1,5 +1,5 @@
 import { h } from 'hyperapp';
-import { LinkedInLink, GithubLink } from './Links';
+import { LinkedInLink, GithubLink, TwitterLink } from './Links';
 
 export default ({tooltiptext, copyAction, resetCopyAction}) => (
   <section>
@@ -9,8 +9,9 @@ export default ({tooltiptext, copyAction, resetCopyAction}) => (
     </p>
     <hr />
     <p>
-      <LinkedInLink/>
+      <TwitterLink/>
       <GithubLink/>
+      <LinkedInLink/>
       <div class="inline">
         <body id={emailId}>gary@garygary.uk</body>
         <i onclick={() => copyEmailToClipboard(copyAction)} onmouseout={resetCopyAction} on class="fas fa-copy custtooltip">
