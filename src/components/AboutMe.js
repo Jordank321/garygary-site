@@ -1,8 +1,6 @@
 import { h } from 'hyperapp';
 import Section from './Section';
 
-const gilmondLink = () => (<a href="https://www.gilmond.com/">Gilmond</a>)
-
 const heading = "All About Gary Gary";
 const subtext = "This is skippable, go on, nothing to see here...";
 const content = (<div>
